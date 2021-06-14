@@ -1,0 +1,40 @@
+a:hover{
+    background: rgba(255,0,0,.4);
+}
+.container {
+    width: 99.5%;
+    height: 100px;
+}
+.dani {
+    background: rgb(253, 253, 253);
+    text-align: justify;
+}
+.dan {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(43, 226, 83);
+    text-align: center;
+}
+.color {
+    background-color: rgb(104, 198, 235);
+}
+.ddan {
+    text-align: center;
+    color: brown;
+}
+.daniel {
+    width: auto;
+    height: auto;
+    
+}
+.carlos {
+    width: 100%;
+    height: 100%;
+}
+img {
+    margin: auto;
+    display: block;
+    }
+.texto {
+    color: forestgreen;
+}

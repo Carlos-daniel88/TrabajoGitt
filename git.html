@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" conteni="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
+    <title>plantilla</title>
+
+    </head>
+	<header class="dan">
+		<li>Git en marcha</li>
+	</header>
+
+<body class="dani">
+	<div class="col-12">
+		<h3></h3>
+		<div class="nav bg-warning justify-content-center py-2">
+			<a href="index.html" class="nav-link">inicio</a>
+			<a href="acerca.html" class="nav-link">Acerca de Git</a>
+			<a href="instalacion.html" class="nav-link">Instalacion de Git</a>
+			<a href="comandos.html" class="nav-link">Comandos Basicos de Git</a>
+			<a href="git.html" class="nav-link">Git en marcha</a>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-3">
+				<h3>Comandos Git</h3>
+				<div class="nav flex-column">
+					<a href="#a" class="nav-link">Git-Init</a>
+					<a href="#b" class="nav-link">Git-Add</a>
+					<a href="#c" class="nav-link">Git-Status</a>
+					<a href="#d" class="nav-link">Usuario</a>
+					<a href="#e" class="nav-link">Git-Commit</a>
+					<a href="#f" class="nav-link">Git-Checkout</a>
+					<a href="#h" class="nav-link">Git-Diff</a>
+					<a href="#i" class="nav-link">Git-branch</a>
+					<a href="#j" class="nav-link">Git-Clone</a>
+					<a href="#k" class="nav-link">Git-Log</a>
+					<a href="#m" class="nav-link">Git-Push</a>
+					<a href="#n" class="nav-link">Git-Pull</a>
+				</div>
+			</div>
+			<div class="col-9">
+				<h1 class="ddan" id="a">Git-Init</h1>
+				<img src="img/Imagen1.png" alt=""><br>
+				<p>
+					<span class="color"><strong>Git-Init:</strong></span>
+					<strong class="texto"> Crea un repositorio de Git vacío o en otras palabras 
+						git init es para inicializar un proyecto
+
+					</strong> 
+				</p>
+				<div>
+					<h1 class="ddan" id="b">Git-Add</h1>
+					<img src="img/gitAdd.jpg" alt="">
+					<p>
+						<span class="color"><strong>Git-Add:</strong></span>
+						<strong class="texto"> Agrega el contenido del archivo al índice. Este comando actualiza el índice utilizando el  contenido 
+							actual que se encuentra en el árbol de trabajo, para preparar el contenido preparado para la próxima 
+							confirmación. Por lo general, agrega el contenido actual de las rutas existentes como un todo, pero con 
+							algunas opciones también se puede usar para agregar contenido con solo una parte de los cambios realizados en los archivos del árbol de trabajo aplicados, o eliminar las rutas que no existen en el árbol de trabajo.
+						</strong>
+					</p>
+				</div>
+				<div>
+					<h1 class="ddan" id="c">Git-Status</h1><br>
+					<img src="img/Imagen2.png" alt="">
+					<p>
+						<span class="color"><strong>Git-Status:</strong></span>
+						<strong class="texto"> Muestra el estado del árbol de trabajo, Muestra con que 
+							archivos se trabaja los que no están agregado están color rojo y cuando ya 
+							se agregaron se muestra de color verde 
+ 
+						</strong>
+					</p>
+				</div>
+				
+				<div>
+					<h1 class="ddan" id="d">Usuario</h1>
+					<img src="img/Imagen4.png" alt="">
+					<p>
+						<span class="color"><strong>git config --global user.email y git config --global user.name.</strong></span>
+						<strong class="texto"> Configurar su nombre de usuario y direccion de correo electronico. Esto es importante porque cada confirmacion de 
+							Git usa esta informacion y esta integrada de forma inmutable en las confirmaciones que 
+							comienzas a crear.
+						</strong>
+					</p>
+				</div>
+				<div>
+					<h1 class="ddan" id="e">Git-Commit</h1>
+					<img src="img/comit.jpg" alt="">
+					<p>
+						<span class="color"><strong>Git-Commit:</strong></span>
+						<strong class="texto"> Registra los cambios en el repositorio, Cree una nueva confirmación que contenga el contenido 
+							actual del índice y el mensaje de registro dado que describe los cambios.							
+						</strong>
+					</p>
+				</div>
+				<div>
+					<h1 class="ddan" id="f">Git-Checkout</h1>
+					<img src="img/che.jpg" alt="">
+					<p>
+						<span class="color"><strong>Git-Checkout: </strong></span>
+						<strong class="texto">Cambia de rama o restaura archivos de árbol de trabajo. Actualiza archivos en el árbol de trabajo 
+							para que coincidan con la versión en el índice o el árbol especificando. 
+						</strong>
+					</p>
+				</div>
+				<div>
+					<h1 class="ddan" id="h">Git-Diff</h1>
+					<img src="img/Imagen6.png" alt="">
+					<p>
+						<span class="color"><strong>Git-Diff:</strong></span>
+						<strong class="texto"> Muestra los cambios entre confirmaciones, confirmaciones y árbol de trabajo, etc. 
+							Muestra cambios entre el árbol de trabajo y el índice o un árbol, cambios entre el índice y un árbol, 
+							cambios entre dos árboles, cambios resultantes de una fusión, cambios entre dos objetos blob o cambios 
+							entre dos archivos en el disco.
+						</strong>
+					</p>
+				</div>
+				<div>
+					<h1 class="ddan" id="i">Git-branch</h1>
+					<img src="img/Imagen5.png" alt="">
+					<p>
+						<span class="color"><strong>Git-branch:</strong></span>
+						<strong class="texto"> Enumera, crea o elimina ramas. Si --list se proporciona, o si no hay argumentos que no sean de 
+							opción, se enumeran las ramas existentes; la rama actual se resaltará en verde y se marcará con un 
+							asterisco. Todas las ramas registradas en árboles de trabajo vinculados se resaltarán en cian y se marcarán 
+							con un signo más. La opción -r hace que se enumeren las ramas de seguimiento remoto y la opción -a 
+							muestra las ramas locales y remotas.
+						</strong>
+					</p>
+				</div>
+				<div>
+					<h1 class="ddan" id="j">Git-Clone</h1>
+					<img src="img/Imagen7.png" alt="">
+					<p>
+						<span class="color"><strong>Git-Clone:</strong></span>
+						<strong class="texto"> Clona un repositorio en un directorio recién creado, 
+							crea ramas de seguimiento remoto para cada rama en el repositorio clonado (visible usando 
+							git branch --remotes), y crea y extrae una rama inicial que se bifurca desde la rama actualmente activa 
+							del repositorio clonado. 
+						</strong>
+					</p>
+				</div>
+				<div>
+					<h1 class="ddan" id="k">Git-Log</h1>
+					<img src="img/Imagen8.png" alt="">
+					<p>
+						<span class="color"><strong>Git-Log:</strong></span>
+						<strong class="texto"> Muestra los registros de confirmación. Enumere las confirmaciones 
+							a las que se puede acceder siguiendo los parent enlaces de las confirmaciones dadas, pero excluya las 
+							confirmaciones a las que se puede acceder de las dadas con un ^ delante de ellas. 
+						</strong>
+					</p>
+				</div>
+				<div>
+					<h1 class="ddan" id="m">Git-Push</h1>
+					<img src="img/Imagen9.png" alt="">
+					<p>
+						<span class="color"><strong>Git-Push:</strong></span>
+						<strong class="texto"> Actualiza referencias remotas 
+							usando referencias locales, mientras envía los objetos necesarios para completar las referencias dadas.							
+						</strong>
+					</p>
+				</div>
+				<div>
+					<h1 class="ddan" id="n">Git-Pull</h1>
+					<img src="img/Imagen10.png" alt="">
+					<p>
+						<span class="color"><strong>Git-Pull</strong></span>
+						<strong class="texto"> Incorpora cambios de un repositorio 
+							remoto en la rama actual. En su modo predeterminado, git pulles la abreviatura de git fetchseguido de git merge 
+							FETCH_HEAD.
+						</strong>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html> 
